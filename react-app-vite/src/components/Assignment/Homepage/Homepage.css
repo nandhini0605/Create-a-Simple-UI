@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* Distributes space between components */
+    align-items: flex-start;
+    /* Aligns items at the top */
+    gap: 20px;
+    /* Space between components */
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    /* Fixed width for sidebar */
+    background-color: #696969;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 200px;
+}
+
+.newsfeed {
+    flex: 0 0 500px;
+    /* Takes the remaining space */
+    background-color: #DCDCDC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}

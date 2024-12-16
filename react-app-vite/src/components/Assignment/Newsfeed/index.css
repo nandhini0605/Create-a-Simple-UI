@@ -1,0 +1,18 @@
+.paraStyle {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.buttonStyle {
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 15px;
+}
